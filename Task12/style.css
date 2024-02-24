@@ -1,0 +1,26 @@
+
+.slider {
+    margin: 50px auto;
+    width: 50%;
+}
+.img-box img {
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #333;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    margin: 10px auto;
+    font-family: monospace;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: red;
+    font-family: monospace;
+}

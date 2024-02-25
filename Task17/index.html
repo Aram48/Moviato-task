@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task17</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="comment__container opened" id="first-comment">
+          <div class="comment__card">
+            <h3 class="comment__title">The first comment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Reiciendis eligendi quidem ullam impedit commodi cumque 
+              velit ab amet obcaecati tenetur.
+            </p>
+            <div class="comment__card-footer">
+              <div>Likes 77</div>
+              <div>Dislikes 15</div>
+              <div class="show-replies">Reply 2</div>
+            </div>
+          </div>
+          <div
+            class="comment__container"
+            dataset="first-comment"
+            id="first-reply"
+          >
+            <div class="comment__card">
+              <h3 class="comment__title">The first reply</h3>
+              <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Exercitationem, sit architecto? Officiis voluptatem fugiat sed.
+              </p>
+              <div class="comment__card-footer">
+                <div>Likes 300</div>
+                <div>Dislikes 121</div>
+                <div class="show-replies">Reply 1</div>
+              </div>
+            </div>
+            <div
+              class="comment__container"
+              dataset="first-reply"
+              id="first-first-reply"
+            >
+              <div class="comment__card">
+                <h3 class="comment__title">The first reply to the first reply</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                  Impedit dignissimos error laudantium!
+                </p>
+                <div class="comment__card-footer">
+                  <div>Likes 23</div>
+                  <div>Dislikes 50</div>
+                  <div class="show-replies">Reply 1</div>
+                </div>
+              </div>
+              <div class="comment__container" dataset="first-first-reply">
+                <div class="comment__card">
+                  <h3 class="comment__title">
+                    The first reply to the first reply to the first reply
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                    Impedit dignissimos error laudantium!
+                  </p>
+                  <div class="comment__card-footer">
+                    <div>Likes 83</div>
+                    <div>Dislikes 150</div>
+                    <div class="show-replies">Reply 0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment__container" dataset="first-comment">
+            <div class="comment__card">
+              <h3 class="comment__title">The second reply</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                Impedit dignissimos error laudantium!
+              </p>
+              <div class="comment__card-footer">
+                <div>Likes 500</div>
+                <div>Dislikes 1</div>
+                <div class="show-replies">Reply 0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+
+  #filters {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+  select, input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  #product-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #product-list p {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #product-list p:last-child {
+    border-bottom: none;
+  }
+
+  p.no-products {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+  }
